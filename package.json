@@ -1,0 +1,25 @@
+{
+  "name": "echarts-ncov-map",
+  "version": "1.0.0",
+  "description": "调用腾讯疫情数据接口，使用ECharts以及ECharts自带的地图js文件构建可视化界面",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dong-666/ECharts-nCoV-Map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dong-666/ECharts-nCoV-Map/issues"
+  },
+  "homepage": "https://github.com/Dong-666/ECharts-nCoV-Map#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
