@@ -15,8 +15,8 @@ WorldData.then(data => {
   }
 
   ChinaData.then(chinaData => {
-    let resByChina = JSON.parse(chinaData.data).areaTree[0].children;
-    let resByWorld = JSON.parse(chinaData.data).chinaTotal.nowConfirm;
+    let resByChina = chinaData.data.diseaseh5Shelf.areaTree[0].children;
+    let resByWorld = chinaData.data.diseaseh5Shelf.chinaTotal.nowConfirm;
     worldVirus.push({ name: '中国', value: resByWorld });
 
     //国内疫情数据

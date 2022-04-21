@@ -4,8 +4,8 @@ ChinaData.then(data => {
   let sum, cureSum;
 
   // 获取中国疫情数据
-  sum = JSON.parse(data.data).chinaTotal.confirm;
-  cureSum = JSON.parse(data.data).chinaTotal.heal;
+  sum = data.data.diseaseh5Shelf.chinaTotal.confirm;
+  cureSum = data.data.diseaseh5Shelf.chinaTotal.heal;
 
   WorldData.then(data1 => {
     // 获取世界疫情数据同时加上中国疫情数据

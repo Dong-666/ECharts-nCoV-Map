@@ -7,9 +7,9 @@ let WorldData = $.ajax({
 
 // 国内疫情
 let ChinaData = $.ajax({
-  url: 'https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5',
+  url: 'https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=statisGradeCityDetail,diseaseh5Shelf',
   type: 'get',
-  dataType: 'jsonp',
+  dataType: 'json',
 });
 
 // 国内疫情趋势
